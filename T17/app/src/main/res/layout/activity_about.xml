@@ -5,16 +5,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.apaar97.translate.AboutActivity">
+    tools:context="com.example.team17.AboutActivity">
 
     <ImageView
         android:id="@+id/about_yandex"
-        android:layout_width="300dp"
-        android:layout_height="100dp"
+        android:layout_width="800dp"
+        android:layout_height="300dp"
         android:layout_centerVertical="true"
-        android:src="@drawable/yandex_logo"
+        android:src="@drawable/t17"
         android:contentDescription="TODO" />
-    <ImageView
+    <!--<ImageView
         android:layout_width="64dp"
         android:layout_height="64dp"
         android:src="@drawable/translate_logo"
@@ -22,7 +22,7 @@
         android:layout_marginEnd="15dp"
         android:layout_centerVertical="true"
         android:layout_alignRight="@+id/about_yandex"
-        android:layout_alignEnd="@+id/about_yandex" />
+        android:layout_alignEnd="@+id/about_yandex" /> -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

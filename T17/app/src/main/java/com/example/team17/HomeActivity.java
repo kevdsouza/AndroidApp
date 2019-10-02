@@ -19,16 +19,16 @@ public class HomeActivity extends AppCompatActivity {
         animation.setFillAfter(true);
         animation.setDuration(1200);
         layout.startAnimation(animation);
-        //Button bConversation = (Button) findViewById(R.id.start_new_conversation);
+        Button bConversation = (Button) findViewById(R.id.start_new_conversation);
         Button bTranslation = (Button) findViewById(R.id.start_new_translation);
-        //Button bAbout = (Button) findViewById(R.id.about);
-        /*bConversation.setOnClickListener(new View.OnClickListener() {
+        Button bAbout = (Button) findViewById(R.id.about);
+        bConversation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, ConversationActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
         bTranslation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -36,12 +36,13 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-        /*bAbout.setOnClickListener(new View.OnClickListener() {
+        bAbout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(HomeActivity.this, AboutActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
+

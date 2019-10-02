@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 public class AboutActivity extends AppCompatActivity {
 
-    private static String YANDEX_URL = "https://translate.yandex.com/";
+    private static String YANDEX_URL = "https://cybertraxx.in/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
